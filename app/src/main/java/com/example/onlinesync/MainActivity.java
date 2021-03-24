@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        Toast.makeText(getApplicationContext(),"Test11111",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"Test",Toast.LENGTH_LONG).show();
         OwnerDBAdapter ownerDBAdapter = new OwnerDBAdapter(getApplicationContext());
         Cursor cursor = ownerDBAdapter.getAllOwner();
 //        ConnectivityManager connectivityManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
